@@ -22,14 +22,14 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Nikhil Yaar Win — Premium Telegram Signals" },
-      { name: "description", content: "Daily premium signals, straight to your Telegram. Join Nikhil Yaar Win's private channel now." },
-      { property: "og:title", content: "Nikhil Yaar Win — Premium Telegram Signals" },
+      { title: "Ayush Shree Win — Premium Telegram Signals" },
+      { name: "description", content: "Daily premium signals, straight to your Telegram. Join Ayush Shree Win's private channel now." },
+      { property: "og:title", content: "Ayush Shree Win — Premium Telegram Signals" },
       { property: "og:description", content: "Daily premium signals, straight to your Telegram. Join the private channel now." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Nikhil Yaar Win — Premium Telegram Signals" },
+      { name: "twitter:title", content: "Ayush Shree Win — Premium Telegram Signals" },
       { name: "twitter:description", content: "Daily premium signals, straight to your Telegram. Join the private channel now." },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -39,7 +39,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          name: "Nikhil Yaar Win",
+          name: "Ayush Shree Win",
           url: "/",
           description: "Daily premium signals, straight to your Telegram.",
         }),
@@ -47,6 +47,7 @@ export const Route = createFileRoute("/")({
     ],
   }),
 });
+
 
 function Index() {
   const seconds = useCountdown(30);
@@ -61,7 +62,7 @@ function Index() {
           <div className="relative h-36 w-36 overflow-hidden rounded-full ring-4 ring-orange/60 ring-orange-glow">
             <img
               src={logoAsset.url}
-              alt="Nikhil Yaar Win logo"
+              alt="Ayush Shree Win logo"
               className="h-full w-full object-cover"
               width={144}
               height={144}
@@ -70,8 +71,9 @@ function Index() {
         </div>
 
         <h1 className="font-serif text-4xl font-bold tracking-tight text-cream sm:text-5xl">
-          NIKHIL YAAR WIN
+          AYUSH SHREE WIN
         </h1>
+
 
         <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-gradient-to-r from-orange to-ember" />
 
